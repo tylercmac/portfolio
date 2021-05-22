@@ -1,0 +1,23 @@
+.about {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 2rem;
+  text-align: justify;
+}
+
+.about-header {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 5rem;
+  }
+  .about-header {
+    padding: 2rem;
+  }
+}

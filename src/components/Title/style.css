@@ -1,0 +1,26 @@
+.inner{
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  opacity: .9;
+  font: "Lato", sans-serif;
+  text-transform: uppercase;
+  padding: 0 1rem;
+}
+
+.title-card {
+  background-color: black;
+  color: rgb(250,250,250);
+  padding: 2rem;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.whitney {
+  font-size: 2.5rem;
+}
+
+.gotham {
+  font-size: 1.5rem;
+}
