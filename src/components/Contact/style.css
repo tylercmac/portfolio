@@ -1,0 +1,100 @@
+.contact-header {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 4rem;
+}
+
+#back-to-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.effect {
+  min-height: 23rem;
+  padding: 0 12rem;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 7rem;
+}
+
+.effect a {
+  text-decoration: none !important;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+  color: #212121;
+  border: 2px solid #212121;
+}
+
+.effect a i {
+  position: relative;
+  z-index: 3;
+}
+
+.effect a:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.effect a i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* varrius effect */
+
+.effect.varrius a {
+  transition: all 0.2s linear 0s;
+}
+
+.effect.varrius a:after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 90%;
+  top: -110%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  background-color: #212121;
+  border-radius: 50%;
+}
+
+.effect.varrius a:hover {
+  color: #fff;
+}
+
+.effect.varrius a:hover:after {
+  top: 5%;
+  transition: all 0.2s linear 0s;
+}
+
+@media (max-width: 768px) {
+  .effect {
+    padding: 0;
+  }
+  .effect a {
+    margin: 1rem 2rem;
+  }
+  .buttons {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+}

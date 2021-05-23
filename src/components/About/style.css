@@ -2,22 +2,58 @@
   color: #777;
   background-color: white;
   text-align: center;
-  padding: 2rem;
+  padding: 3rem;
   text-align: justify;
 }
 
 .about-header {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font: 30px "Lato", sans-serif;
   color: #111;
+  margin-top: .5rem;
 }
+
+#scroll-to-one {
+  position: absolute;
+  bottom: 20%;
+}
+
+.profile-container {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.avatar {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+}
+
 
 @media (min-width: 768px) {
   .about {
-    padding: 5rem;
+    padding: 6rem;
   }
   .about-header {
     padding: 2rem;
+  }
+  .profile-container {
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 1500px) {
+  .about {
+    padding: 8rem;
+  }
+  .about-header {
+    padding: 4rem;
+  }
+}
+@media (max-width: 500px) {
+  #scroll-to-one {
+    bottom: 0%;
   }
 }

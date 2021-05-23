@@ -9,12 +9,14 @@
   padding: 0 1rem;
 }
 
+
 .title-card {
   background-color: black;
   color: rgb(250,250,250);
   padding: 2rem;
-  width: fit-content;
+  width: auto;
   margin: 0 auto;
+  max-width: 41rem;
 }
 
 .whitney {
@@ -22,5 +24,47 @@
 }
 
 .gotham {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  width: 47ch;
+  animation: typing 3s steps(40), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  margin: 0 auto;
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+@media (max-width: 768px) {
+  .title-card {
+    background-color: black;
+    color: rgb(250,250,250);
+    padding: 2rem;
+    width: fit-content;
+    margin: 0 auto;
+    display: block;
+  }
+  .gotham {
+    font-size: 1.3rem;
+    width: initial;
+    animation: none;
+    border: none;
+    white-space: break-spaces;
+  }
+  .type-text {
+    display: block;
+    border: none;
+  }
 }

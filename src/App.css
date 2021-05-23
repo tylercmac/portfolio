@@ -1,5 +1,5 @@
 .parallax.one {
-  background-image: url('./IMG_8515.JPEG');
+  background-image: url('./images/IMG_8515.JPEG');
 
   height: 100%;
   opacity: .65;
@@ -9,8 +9,56 @@
   background-size: cover;
 }
 
+.parallax.two {
+  background-image: url('./images/parallax2.jpg');
+
+  position: relative;
+  min-height: 400px;
+  opacity: .65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax.three {
+  background-image: url('./images/20190721_214256.jpg');
+
+  position: relative;
+  min-height: 400px;
+  opacity: .65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.border {
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+  border: none;
+}
+
+hr {
+  border-top: #f7f7f7;
+}
+
 @media only screen and (max-device-width: 1366px) {
-  .parallax.one, .parallax.two {
+  .parallax.one, .parallax.two, .parallax.three {
     background-attachment: scroll;
+  }
+.parallax.two {
+    background-position: initial;
+    min-height: 300px;
   }
 }
