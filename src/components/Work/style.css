@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 6rem;
 }
 
 #scroll-to-two {
@@ -16,15 +17,17 @@
   font-size: 2.5rem;
 }
 
+
 .c-img {
   opacity: .6;
   min-height: 33rem;
   transition: opacity .5s;
-}
+} 
+
 .c-img:hover {
   opacity: 1;
-  min-height: 33rem;
-}
+  min-height: 33rem; 
+} 
 
 .carousel-container {
   margin-bottom: 8rem;
@@ -36,32 +39,50 @@
 
 .my-caption h3 {
   text-transform: uppercase;
-}
+} 
 
 .carousel-caption {
   color: rgb(255, 255, 255);
   background: rgb(0, 0, 0);
   opacity: 0.7;
   position: absolute;
-}
+} 
 
 a.carousel-control-prev, a.carousel-control-next {
   background-color: black;
   opacity: .3;
   width: 7%;
-}
+} 
 
 a.carousel-control-prev:active, a.carousel-control-next:active {
   background-color: black;
   opacity: .3;
   width: 7%;
-}
+} 
 
 .carousel-indicators {
   margin-bottom: 2rem;
 }
 
+.mobile-show {
+  display: none;
+}
+
+.desktop-show {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 768px) {
+  .mobile-show {
+    display: inherit;
+  }
+  .desktop-show {
+    display: none;
+  }
+  .work-container {
+    padding-bottom: 1rem;
+  }
   .carousel {
     width: initial;
     height: fit-content;
@@ -74,8 +95,6 @@ a.carousel-control-prev:active, a.carousel-control-next:active {
     text-align: center;
     padding-bottom: 0;
   }
-
-  
   .carousel-caption {
     position: inherit;
     right: 15%;
@@ -94,7 +113,6 @@ a.carousel-control-prev:active, a.carousel-control-next:active {
   .my-caption h3 {
     margin-bottom: 0;
   }
-
   .carousel-indicators {
     margin-bottom: .1rem;
   }
@@ -103,9 +121,15 @@ a.carousel-control-prev:active, a.carousel-control-next:active {
   }
   a.carousel-control-prev, a.carousel-control-next {
     width: 10%;
+    background-color: unset;
   }
-  
   a.carousel-control-prev:active, a.carousel-control-next:active {
     width: 10%;
+  }
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%70fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
+  }
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%70fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
   }
 }

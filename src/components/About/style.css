@@ -1,5 +1,5 @@
 .about {
-  color: #777;
+  color: rgb(0, 0, 0);
   background-color: white;
   text-align: center;
   padding: 3rem;
@@ -31,10 +31,50 @@
   border-radius: 50%;
 }
 
+.skills {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+
+/* .fa-bootstrap {
+  margin: 0 .5rem;
+} */
+
+.skill-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 6rem;
+}
+
+.fa-3x {
+  width: 100%;
+  text-align: center;
+}
+.skill-text {
+  font-size: 1.3rem;
+  width: 100%;
+  text-align: center;
+  margin-top: .2rem;
+}
+
+.mongoimg {
+  width: 3rem;
+}
+
+.expressimg {
+  width: 3rem;
+  height: 2rem;
+  margin: .5rem;
+}
 
 @media (min-width: 768px) {
   .about {
-    padding: 6rem;
+    padding: 5rem;
   }
   .about-header {
     padding: 2rem;
@@ -46,7 +86,7 @@
 }
 @media (min-width: 1500px) {
   .about {
-    padding: 8rem;
+    padding: 7rem;
   }
   .about-header {
     padding: 4rem;

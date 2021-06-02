@@ -12,10 +12,11 @@ function App() {
       <div className='parallax one'>
         <NavBar />
         <Title />
-        <Scroll />
+        <Scroll scroll="#scroll-to-one" container="container"/>
       </div>
       <About />
       <div className='parallax two'>
+        <Scroll scroll="#scroll-to-two" container="container-two scroll-2"/>
       </div>
       <Work />
       <div className='parallax three' id='final-scroll'>
