@@ -122,6 +122,7 @@ nav.shift ul li a:hover:after {
 }
 #my-nav {
   display: none;
+  z-index: 3
 }
 
 @media (max-width: 635px) {

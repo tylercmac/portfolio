@@ -3,7 +3,8 @@ import WorkBox from "../WorkBox";
 import BirdQuiz from './images/birdquiz.png';
 import GearWise from './images/gearwise.PNG';
 import Vedomy from './images/vedomy.png';
-import Workout from "./images/workout.png"
+import Workout from "./images/workout.png";
+import kinetik from "./images/kinetik.PNG";
 import Carousel from 'react-bootstrap/Carousel';
 import './style.css'
 
@@ -16,6 +17,19 @@ export default function Work() {
       <h3 className='about-header work-header pt-4 mt-5 mb-4'>My Work</h3>
       <div className='carousel-container mobile-show'>
         <Carousel>
+        <Carousel.Item>
+            <a className='site-links' href="http://kinetikapp.herokuapp.com/" target="_blank" rel="noreferrer">
+              <img
+                className="d-block w-100 c-img"
+                src={kinetik}
+                alt="First slide"
+              />
+              <Carousel.Caption className='my-caption'>
+                <h3>kinetik</h3>
+                <p>Staying in motion, together.</p>
+              </Carousel.Caption>
+            </a>
+          </Carousel.Item>
           <Carousel.Item>
             <a className='site-links' href="https://gushihiro.github.io/Vedomy/" target="_blank" rel="noreferrer">
               <img
@@ -61,15 +75,20 @@ export default function Work() {
       </div>
       <div className='desktop-show justify-content-around'>
         <WorkBox
-          image={Vedomy}
-          url='https://gushihiro.github.io/Vedomy/'
-          title="Vedomy"
+          image={kinetik}
+          url='http://kinetikapp.herokuapp.com/'
+          title="kinetik"
         />
         <WorkBox
           image={GearWise}
           url="https://gear-wise.herokuapp.com/"
           title="Gearwise"
         />
+          <WorkBox
+            image={Vedomy}
+            url='https://gushihiro.github.io/Vedomy/'
+            title="Vedomy"
+          />
         <WorkBox
           image={BirdQuiz}
           url="https://tylercmac.github.io/bird-quiz/"
@@ -79,16 +98,6 @@ export default function Work() {
           image={Workout}
           url="https://floating-ridge-87037.herokuapp.com/"
           title="Workout Tracker"
-        />
-        <WorkBox
-          image={Vedomy}
-          url='https://gushihiro.github.io/Vedomy/'
-          title="Vedomy"
-        />
-        <WorkBox
-          image={Vedomy}
-          url='https://gushihiro.github.io/Vedomy/'
-          title="Vedomy"
         />
 
       </div>
