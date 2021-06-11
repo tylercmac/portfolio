@@ -2,8 +2,6 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './style.css';
-import DownloadLink from "react-download-link";
-// import "bootstrap/js/src/collapse.js";
 
 
 export default function NavBar() {

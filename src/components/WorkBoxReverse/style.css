@@ -1,6 +1,7 @@
 .work-box {
   display: flex;
   justify-content: space-around;
+  /* position: relative; */
   margin: 2rem;
   padding: 0 !important
 }
@@ -110,4 +111,9 @@
 .projexpressimg, .projmongoimg {
   height: 2rem;
   /* height: 1rem; */
+}
+
+@media (max-width: 1000px) {
+  
+
 }

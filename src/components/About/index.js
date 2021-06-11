@@ -28,9 +28,9 @@ export default function About() {
             <div className='col-lg-12 d-flex justify-content-around flex-wrap'>
               <div className="skill-icon"><i className="fab fa-node-js fa-3x"></i><p className='skill-text'>Node.js</p></div>
               <div className="skill-icon"><i className="fab fa-react fa-3x"></i><p className='skill-text'>React.js</p></div>
-              <div className="skill-icon"><img src={express} className="expressimg" /><p className='skill-text'>Express.js</p></div>
+              <div className="skill-icon"><img src={express} alt="express icon" className="expressimg" /><p className='skill-text'>Express.js</p></div>
               <div className="skill-icon"><i className="fas fa-database fa-3x"></i><p className='skill-text'>MySQL</p></div>
-              <div className="skill-icon"><img src={mongodb} className="mongoimg" /><p className='skill-text'>MongoDB</p></div>
+              <div className="skill-icon"><img src={mongodb}  alt="mongod icon" className="mongoimg" /><p className='skill-text'>MongoDB</p></div>
             </div>
           </div>
         </div>
