@@ -105,7 +105,7 @@ export default function Work() {
           image={GearWise}
           url="https://gear-wise.herokuapp.com/"
           repo_url="https://github.com/tylercmac/gear-tracker"
-          title="Gearwise"
+          title="GearWise"
           details={<>
             <p className='descrip'>
             GearWise is an application for backpackers and campers to log and store their gear, record trips, and ensure that their load isn't too heavy to carry.
