@@ -3,6 +3,7 @@ import "./style.css";
 import avatar from './img/headshot.jpg';
 import mongodb from './img/pngjoy.com_mongodb-mongodb-icon-png-download_7091544.png';
 import express from './img/expressjs.png';
+import fastify from './img/fastify.png';
 
 export default function About() {
   return (
@@ -24,11 +25,12 @@ export default function About() {
               <div className="skill-icon"><i className="fab fa-css3 fa-3x"></i><p className='skill-text'>CSS</p></div>
               <div className="skill-icon"><i className="fab fa-bootstrap fa-3x"></i><p className='skill-text'>Bootstrap</p></div>
               <div className="skill-icon"><i className="fab fa-js fa-3x"></i><p className='skill-text'>JavaScript</p></div>
+              <div className="skill-icon"><i className="fab fa-react fa-3x"></i><p className='skill-text'>React.js</p></div>
             </div>
             <div className='col-lg-12 d-flex justify-content-around flex-wrap'>
               <div className="skill-icon"><i className="fab fa-node-js fa-3x"></i><p className='skill-text'>Node.js</p></div>
-              <div className="skill-icon"><i className="fab fa-react fa-3x"></i><p className='skill-text'>React.js</p></div>
               <div className="skill-icon"><img src={express} alt="express icon" className="expressimg" /><p className='skill-text'>Express.js</p></div>
+              <div className="skill-icon"><img src={fastify}  alt="fastify icon" className="mongoimg" /><p className='skill-text'>Fastify</p></div>
               <div className="skill-icon"><i className="fas fa-database fa-3x"></i><p className='skill-text'>MySQL</p></div>
               <div className="skill-icon"><img src={mongodb}  alt="mongod icon" className="mongoimg" /><p className='skill-text'>MongoDB</p></div>
             </div>
