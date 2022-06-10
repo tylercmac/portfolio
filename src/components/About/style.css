@@ -72,6 +72,12 @@
   margin: .5rem;
 }
 
+.materialimg {
+  width: 1rem;
+  height: .5rem;
+  margin: .5rem;
+}
+
 @media (min-width: 768px) {
   .about {
     padding: 5rem;
