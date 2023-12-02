@@ -4,7 +4,7 @@ import avatar from './img/headshot.jpg';
 import mongodb from './img/pngjoy.com_mongodb-mongodb-icon-png-download_7091544.png';
 import express from './img/expressjs.png';
 import csharp from './img/c-sharp.svg';
-import remix from './img/remix.png';
+import azure from './img/azure.png';
 import materialui from './img/materialui.png';
 import aws from './img/aws.svg';
 
@@ -31,7 +31,7 @@ export default function About() {
               <div className="skill-icon"><img src={csharp} alt="csharp icon" className="mongoimg" /><p className='skill-text'>C#</p></div>
               <div className="skill-icon"><img src={materialui} alt="materialui icon" className="mongoimg"/><p className="skill-text">MaterialUI</p></div>
               <div className="skill-icon"><i className="fab fa-react fa-3x"></i><p className='skill-text'>React</p></div>
-              <div className="skill-icon"><img src={remix} alt="remix icon" className="mongoimg"/><p className="skill-text">Remix</p></div>
+              <div className="skill-icon"><img src={azure} alt="azure icon" className="mongoimg"/><p className="skill-text">Azure</p></div>
             </div>
             <div className='col-lg-12 d-flex justify-content-around flex-wrap'>
               <div className="skill-icon"><i className="fab fa-node-js fa-3x"></i><p className='skill-text'>Node.js</p></div>

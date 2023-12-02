@@ -9,6 +9,7 @@
 .nav-text {
   font-size: 1.5rem;
   margin: 0 2rem;
+  text-transform: uppercase;
 }
 
 /* .nav-text:hover {

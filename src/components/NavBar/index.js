@@ -19,17 +19,17 @@ export default function NavBar() {
             <hr className="nav-line" />
             <Nav.Link href="#final-scroll" className="nav-text">Contact Me</Nav.Link>
             <hr className="nav-line" />
-            <Nav.Link href="https://drive.google.com/file/d/1nIQY74VCtRVAALMpEm3S5OxYiFfRAYgQ/view?usp=sharing" className="nav-text">Resume</Nav.Link>
+            <Nav.Link href="https://drive.google.com/file/d/1NZvAJisQmi7vOBQex05IZPgKVdhd6F3e/view?usp=sharing" className="nav-text">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
 
       </Navbar>
-      <nav className="shift">
+      <nav className="shift" >
         <ul>
           <li><a href="#scroll-to-one">About</a></li>
           <li><a href="#scroll-to-two" className="middle-link">My Work</a></li>
           <li><a href="#final-scroll">Contact Me</a></li>
-          <li><a href="https://drive.google.com/file/d/1nIQY74VCtRVAALMpEm3S5OxYiFfRAYgQ/view?usp=sharing" download>Resume</a></li>
+          <li><a href="https://drive.google.com/file/d/1NZvAJisQmi7vOBQex05IZPgKVdhd6F3e/view?usp=sharing" download>Resume</a></li>
         </ul>
       </nav>
     </>
